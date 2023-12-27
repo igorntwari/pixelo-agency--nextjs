@@ -10,6 +10,10 @@ const config: Config = {
       colors: {
         "custom-black": "#0C0C0C",
       },
+      backgroundImage: {
+        "hero-pattern":
+          "linear-gradient(black, black), url('/images/hero-pattern.png')",
+      },
     },
   },
   plugins: [],
