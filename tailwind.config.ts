@@ -11,9 +11,6 @@ const config: Config = {
         "custom-black": "#0C0C0C",
       },
     },
-    container: {
-      center: true,
-    },
   },
   plugins: [],
 };
