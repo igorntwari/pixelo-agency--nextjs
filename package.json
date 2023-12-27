@@ -28,6 +28,7 @@
     "semi": true
   },
   "dependencies": {
+    "classnames": "^2.4.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
