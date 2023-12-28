@@ -19,7 +19,7 @@ const config: Config = {
       },
       height: {
         "hero-content": "calc(100vh - 11rem)",
-        "hero-content-sm": "calc(100vh - 4rem)",
+        "hero-content-sm": "calc(100vh - 4.5rem)",
       },
     },
   },
