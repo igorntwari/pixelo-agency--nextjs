@@ -1,3 +1,7 @@
+"use client";
+
+import { useRef, useState } from "react";
+import { useOnClickOutside } from "usehooks-ts";
 import { Roboto_Serif } from "next/font/google";
 import Link from "next/link";
 import classNames from "classnames";
@@ -7,6 +11,13 @@ import { Logo } from "@/app/assets";
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export default function NavBar() {
+  const reference = useRef(null);
+
+  const [navToggled, setNavToggled] = useState(false);
+
+  const handleClickOutside = () => setNavToggled(false);
+
+  useOnClickOutside(reference, handleClickOutside);
   return (
     <>
       <nav className="hidden sm:flex justify-between items-center">
@@ -33,19 +44,41 @@ export default function NavBar() {
         </Link>
       </nav>
       <div className="flex justify-end sm:hidden">
-        <Menu size="30" />
-        <div className="absolute w-4/5 bg-[#FCFBFD] text-neutral-950 inset-y-0 right-0 pt-5">
-          <Link href="/">
+        <button onClick={() => setNavToggled(!navToggled)}>
+          <Menu size="30" />
+        </button>
+        <div
+          ref={reference}
+          className={classNames(
+            "absolute z-50 translate-x-full transition duration-500 right-0 w-4/5 bg-[#FCFBFD] text-neutral-950 inset-y-0 pt-5",
+            {
+              "translate-x-0": navToggled,
+            },
+          )}
+        >
+          <Link href="/" onClick={() => setNavToggled(!navToggled)}>
             <Logo className="size-10 w-20" />
           </Link>
           <nav className="grid gap-2 mt-10 *:py-2 *:px-2">
-            <Link href="/" className="bg-[#F0EEF0]">
+            <Link
+              href="/"
+              onClick={() => setNavToggled(!navToggled)}
+              className="bg-[#F0EEF0]"
+            >
               Home
             </Link>
-            <Link href="/" className="">
+            <Link
+              href="/"
+              onClick={() => setNavToggled(!navToggled)}
+              className=""
+            >
               About
             </Link>
-            <Link href="/" className="">
+            <Link
+              href="/"
+              onClick={() => setNavToggled(!navToggled)}
+              className=""
+            >
               Contact Us
             </Link>
           </nav>
