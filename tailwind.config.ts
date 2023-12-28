@@ -12,7 +12,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-pattern":
-          "linear-gradient(black, black), url('/images/hero-pattern.png')",
+          "linear-gradient(black, black), url('assets/images/hero-pattern.png')",
       },
     },
   },
