@@ -1,8 +1,8 @@
 import { Roboto_Serif } from "next/font/google";
 import Link from "next/link";
-import Logo from "./svg/logo";
 import classNames from "classnames";
 import { Menu } from "react-feather";
+import { Logo } from "@/app/assets";
 
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
