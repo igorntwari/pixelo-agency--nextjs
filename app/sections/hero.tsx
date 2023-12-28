@@ -30,7 +30,7 @@ export default function Hero() {
               )}
             >
               Ready to take your{" "}
-              <span className="text-[#64CCC5]">Business Growth</span> to the
+              <span className="text-light-green">Business Growth</span> to the
               next level?
             </p>
             <p className="text-sm sm:text-base">
@@ -55,14 +55,14 @@ export default function Hero() {
               <Mindfullness />
             </div>
           </div>
-          <div className="flex justify-center order-first box-border md:order-last items-center">
+          <div className="flex justify-center order-first box-border md:order-last items-center md:py-10">
             <Image
               src={heroImage}
               width={500}
               height={500}
               priority
               alt="Hero Image"
-              className="rounded-full shadow-rounded h-full md:h-auto w-auto object-cover"
+              className="rounded-full shadow-rounded h-full 3xl:h-auto w-auto object-cover"
               draggable={false}
             />
           </div>
