@@ -1,12 +1,72 @@
+import { Roboto_Serif } from "next/font/google";
 import NavBar from "@/components/nav-bar";
-import Stars from "@/components/svg/stars";
+import {
+  Stars,
+  heroImage,
+  Mindfullness,
+  Leafe,
+  Automation,
+  Greenish,
+} from "../assets";
+import Image from "next/image";
+import classNames from "classnames";
+import Link from "next/link";
+import { ChevronRight } from "react-feather";
+
+const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <section className="min-h-dvh bg-hero-pattern bg-blend-overlay bg-bottom bg-no-repeat bg-cover text-white">
-      <div className="width-responsive pt-5 sm:pt-10">
-        <Stars className="absolute size-32 top-1/4 left-0" />
+    <section className="bg-hero-pattern bg-blend-overlay relative w-screen overflow-x-hidden bg-bottom bg-no-repeat bg-cover text-white">
+      <div className="width-responsive py-5 sm:py-10 min-h-dvh flex flex-col">
+        <Stars className="absolute size-32 top-1/4 left-0 hidden sm:block" />
         <NavBar />
+        <div className="grid md:grid-cols-2 gap-5 h-hero-content-sm sm:h-hero-content sm:mt-14 grid-rows-3 md:grid-rows-1 box-border">
+          <div className="flex flex-col relative row-span-2 md:row-span-1 justify-around py-10 md:py-0 md:justify-center gap-5">
+            <p
+              className={classNames(
+                robotoSerif.className,
+                "lg:text-4xl sm:text-2xl text-xl",
+              )}
+            >
+              Ready to take your{" "}
+              <span className="text-[#64CCC5]">Business Growth</span> to the
+              next level?
+            </p>
+            <p className="text-sm sm:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut
+              massa libero egestas malesuada viverra gravida libero cursus nulla
+              leo pulvinar.
+            </p>
+            <Link
+              href="/"
+              className="flex bg-white text-sm sm:text-base items-center rounded-full p-1 sm:w-auto sm:p-2 pr-4 self-start text-neutral-950 gap-3"
+            >
+              <ChevronRight
+                className="bg-black rounded-full size-5 sm:size-auto"
+                color="white"
+              />
+              <span>Start your free trial</span>
+            </Link>
+            <div className="md:absolute md:bottom-0 md:inset-x-0 flex sm:flex-row flex-col items-start justify-center *:w-full *:h-10 md:*:h-auto md:items-stretch md:h-16">
+              <Greenish />
+              <Automation />
+              <Leafe className="h-full" />
+              <Mindfullness />
+            </div>
+          </div>
+          <div className="flex justify-center order-first box-border md:order-last items-center">
+            <Image
+              src={heroImage}
+              width={500}
+              height={500}
+              priority
+              alt="Hero Image"
+              className="rounded-full shadow-rounded h-full md:h-auto w-auto object-cover"
+              draggable={false}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
