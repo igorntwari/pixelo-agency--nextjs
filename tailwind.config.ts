@@ -14,6 +14,9 @@ const config: Config = {
         "hero-pattern":
           "linear-gradient(black, black), url('assets/images/hero-pattern.png')",
       },
+      boxShadow: {
+        rounded: "0rem 0rem 1.875rem rgba(255, 255, 255, 0.5)",
+      },
     },
   },
   plugins: [],
