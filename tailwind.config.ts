@@ -17,6 +17,10 @@ const config: Config = {
       boxShadow: {
         rounded: "0rem 0rem 1.875rem rgba(255, 255, 255, 0.5)",
       },
+      height: {
+        "hero-content": "calc(100vh - 11rem)",
+        "hero-content-sm": "calc(100vh - 4rem)",
+      },
     },
   },
   plugins: [],
