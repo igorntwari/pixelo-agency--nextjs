@@ -9,6 +9,7 @@ const config: Config = {
     extend: {
       colors: {
         "custom-black": "#0C0C0C",
+        "light-green": "#64CCC5",
       },
       backgroundImage: {
         "hero-pattern":
