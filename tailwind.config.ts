@@ -23,6 +23,28 @@ const config: Config = {
         "hero-content": "calc(100vh - 11rem)",
         "hero-content-sm": "calc(100vh - 4.5rem)",
       },
+      keyframes: {
+        focus: {
+          from: {
+            backgroundColor: "#F4F4F4",
+            color: "rgb(10 10 10 / 1)",
+          },
+          "50%": {
+            backgroundColor: "#0C0C0C",
+            color: "white",
+          },
+          to: {
+            backgroundColor: "#F4F4F4",
+            color: "rgb(10 10 10 / 1)",
+          },
+        },
+      },
+      animation: {
+        focus: "focus 1s ease-in-out calc(var(--order) * 1000ms) forwards",
+      },
+      screens: {
+        "3xl": "1600px",
+      },
     },
   },
   plugins: [],
