@@ -10,6 +10,7 @@ const config: Config = {
       colors: {
         "custom-black": "#0C0C0C",
         "light-green": "#64CCC5",
+        "light-grey": "#F4F4F4",
       },
       backgroundImage: {
         "hero-pattern":
