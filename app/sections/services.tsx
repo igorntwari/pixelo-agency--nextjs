@@ -48,7 +48,7 @@ const SERVICES: Service[] = [
   },
 ];
 
-export function Services() {
+export default function Services() {
   const displayServices = SERVICES.map((service, index) => (
     <ServiceListItem key={service.id} {...service} />
   ));
