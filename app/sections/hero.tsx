@@ -12,6 +12,7 @@ import Image from "next/image";
 import classNames from "classnames";
 import Link from "next/link";
 import { ChevronRight } from "react-feather";
+import TrialButton from "@/components/trial-button";
 
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
@@ -38,16 +39,7 @@ export default function Hero() {
               massa libero egestas malesuada viverra gravida libero cursus nulla
               leo pulvinar.
             </p>
-            <Link
-              href="/"
-              className="flex bg-white text-sm sm:text-base items-center rounded-full p-1 sm:w-auto sm:p-2 pr-4 self-start text-neutral-950 gap-3"
-            >
-              <ChevronRight
-                className="bg-black rounded-full size-5 sm:size-auto"
-                color="white"
-              />
-              <span>Start your free trial</span>
-            </Link>
+            <TrialButton className="sm:w-auto self-start" dark={false} />
             <div className="md:absolute md:bottom-0 md:inset-x-0 flex sm:flex-row flex-col items-start justify-center *:w-full *:h-10 md:*:h-auto md:items-stretch md:h-16">
               <Greenish />
               <Automation />
