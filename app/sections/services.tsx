@@ -69,7 +69,8 @@ export default function Services() {
           "text-balance font-bold text-2xl sm:text-4xl mt-5 text-neutral-950 text-center leading-relaxed",
         )}
       >
-        High-impact services <br /> for your business
+        High-impact services <br className="hidden sm:block" /> for your
+        business
       </h1>
 
       <div className="grid gap-10 mt-10 sm:grid-cols-2 lg:grid-cols-3 *:rounded-md *:p-5 *:bg-light-grey">

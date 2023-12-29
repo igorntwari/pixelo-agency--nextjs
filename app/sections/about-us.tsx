@@ -5,7 +5,7 @@ import { team1, team2, team3 } from "../assets";
 import ImageCollage from "@/components/image-collage";
 
 export default function AboutUs() {
-  const images = [
+  const IMAGES = [
     { src: team1, alt: "Team image 1" },
     { src: team2, alt: "Team image 2" },
     { src: team3, alt: "Team image 3" },
@@ -14,7 +14,7 @@ export default function AboutUs() {
   return (
     <section className="bg-custom-black text-white py-14">
       <div className="width-responsive grid md:grid-cols-2 gap-10 sm:gap-0">
-        <ImageCollage images={images} />
+        <ImageCollage images={IMAGES} />
         <div className="space-y-5">
           <h3
             className={classNames(
