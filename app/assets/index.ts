@@ -21,3 +21,6 @@ export { default as Automation } from "./svg/automation-logo";
 
 // Images
 export { default as heroImage } from "./images/hero.png";
+export { default as team1 } from "./images/team-1.jpg";
+export { default as team2 } from "./images/team-2.jpg";
+export { default as team3 } from "./images/team-3.jpg";
