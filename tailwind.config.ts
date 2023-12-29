@@ -38,22 +38,9 @@ const config: Config = {
             color: "rgb(10 10 10 / 1)",
           },
         },
-        "focus-icon": {
-          from: {
-            color: "#0C0C0C",
-          },
-          "50%": {
-            color: "#F4F4F4",
-          },
-          to: {
-            color: "#0C0C0C",
-          },
-        },
       },
       animation: {
         focus: "focus 1s ease-in-out calc(var(--order) * 1000ms) forwards",
-        "focus-icon":
-          "focus-icon 1s ease-in-out calc(var(--order) * 1000ms) forwards",
       },
       screens: {
         "3xl": "1600px",

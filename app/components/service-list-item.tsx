@@ -25,14 +25,14 @@ export default function ServiceListItem({
 
   return (
     <div
-      className={classNames("flex flex-col gap-3 group duration-500", {
+      className={classNames("flex flex-col gap-3 duration-500", {
         "animate-focus": isVisible,
       })}
       style={{ "--order": id } as CSSProperties}
       ref={reference}
     >
-      <div className="rounded-full bg-white mr-auto p-5">
-        <Icon className="size-5 animate-focus-icon" />
+      <div className="rounded-full bg-white text-black mr-auto p-5">
+        <Icon className="size-5" />
       </div>
       <h3 className={classNames(robotoSerif.className, "font-medium")}>
         {title}
