@@ -1,7 +1,6 @@
 import classNames from "classnames";
-import { Roboto_Serif } from "next/font/google";
 import ServiceListItem from "../components/service-list-item";
-const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
+import { robotoSerif } from "../assets";
 
 export interface Service {
   id: number;

@@ -1,4 +1,3 @@
-import { Roboto_Serif } from "next/font/google";
 import NavBar from "@/components/nav-bar";
 import {
   Stars,
@@ -10,11 +9,8 @@ import {
 } from "../assets";
 import Image from "next/image";
 import classNames from "classnames";
-import Link from "next/link";
-import { ChevronRight } from "react-feather";
 import TrialButton from "@/components/trial-button";
-
-const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
+import { robotoSerif } from "../assets";
 
 export default function Hero() {
   return (

@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import classNames from "classnames";
-
-const dmSans = DM_Sans({ subsets: ["latin"] });
+import { dmSans } from "./assets";
 
 export const metadata: Metadata = {
   title: "Pixelo agency",

@@ -1,22 +1,15 @@
 "use client";
 
 import classNames from "classnames";
-import { Roboto_Serif } from "next/font/google";
 import { CSSProperties, PropsWithChildren, useRef } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import { Edit, PenTool, PieChart, Layout, Users, Award } from "react-feather";
 import { Service } from "../sections/services";
-
-const robotoSerif = Roboto_Serif({ subsets: ["latin"], weight: ["500"] });
+import { robotoSerif } from "../assets";
 
 const ServicesIcons = [Edit, PenTool, PieChart, Layout, Users, Award];
 
-export default function ServiceListItem({
-  id,
-  title,
-  description,
-  children,
-}: PropsWithChildren<Service>) {
+export default function ServiceListItem({ id, title, description }: Service) {
   const reference = useRef<HTMLDivElement | null>(null);
   const entry = useIntersectionObserver(reference, {});
   const isVisible = !!entry?.isIntersecting;
