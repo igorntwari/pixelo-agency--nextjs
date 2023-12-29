@@ -23,7 +23,7 @@ export default function Hero() {
             <p
               className={classNames(
                 robotoSerif.className,
-                "lg:text-4xl sm:text-2xl text-xl",
+                "lg:text-4xl sm:text-2xl text-xl font-medium",
               )}
             >
               Ready to take your{" "}
