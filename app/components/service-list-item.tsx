@@ -7,7 +7,7 @@ import { useIntersectionObserver } from "usehooks-ts";
 import { Edit, PenTool, PieChart, Layout, Users, Award } from "react-feather";
 import { Service } from "../sections/services";
 
-const robotoSerif = Roboto_Serif({ subsets: ["latin"], weight: "500" });
+const robotoSerif = Roboto_Serif({ subsets: ["latin"], weight: ["500"] });
 
 const ServicesIcons = [Edit, PenTool, PieChart, Layout, Users, Award];
 
@@ -26,7 +26,7 @@ export default function ServiceListItem({
   return (
     <div
       className={classNames("flex flex-col gap-3 duration-500", {
-        "animate-focus": isVisible,
+        "sm:animate-focus": isVisible,
       })}
       style={{ "--order": id } as CSSProperties}
       ref={reference}
