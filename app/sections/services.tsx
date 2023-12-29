@@ -58,7 +58,7 @@ export function Services() {
       <h3
         className={classNames(
           robotoSerif.className,
-          "text-center text-xl text-light-green font-bold",
+          "text-center sm:text-xl text-light-green font-bold",
         )}
       >
         Our Services
@@ -67,13 +67,13 @@ export function Services() {
       <h1
         className={classNames(
           robotoSerif.className,
-          "text-balance font-bold text-4xl mt-5 text-neutral-950 text-center leading-relaxed",
+          "text-balance font-bold text-2xl sm:text-4xl mt-5 text-neutral-950 text-center leading-relaxed",
         )}
       >
         High-impact services <br /> for your business
       </h1>
 
-      <div className="grid gap-10 mt-10 grid-cols-3 *:rounded-md *:p-5 *:bg-light-grey">
+      <div className="grid gap-10 mt-10 sm:grid-cols-2 lg:grid-cols-3 *:rounded-md *:p-5 *:bg-light-grey">
         {displayServices}
       </div>
     </section>
