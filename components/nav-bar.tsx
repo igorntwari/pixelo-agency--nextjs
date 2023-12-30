@@ -71,7 +71,12 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           Get in touch
         </Link>
       </nav>
-      <div className="flex justify-end sm:hidden">
+      <div
+        className={classNames("flex justify-end sm:hidden", {
+          "pr-5": dark,
+          "pr-8 mt-5": !dark,
+        })}
+      >
         <button onClick={() => setNavToggled(!navToggled)}>
           <Menu size="30" />
         </button>
