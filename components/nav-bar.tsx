@@ -38,7 +38,7 @@ export default function NavBar() {
             Home
           </Link>
           <Link
-            href="/"
+            href="/about"
             className={classNames({ "bg-light-green": pathName === "/about" })}
           >
             About
@@ -90,7 +90,7 @@ export default function NavBar() {
               Home
             </Link>
             <Link
-              href="/"
+              href="/about"
               onClick={() => setNavToggled(!navToggled)}
               className={classNames("bg-[#F0EEF0]", {
                 "bg-light-green": pathName === "/about",
