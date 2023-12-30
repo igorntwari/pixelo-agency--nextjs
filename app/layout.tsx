@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={classNames(dmSans.className, "w-dvw overflow-x-hidden")}>
+      <body className={dmSans.className}>
         {children}
         <Footer />
       </body>
