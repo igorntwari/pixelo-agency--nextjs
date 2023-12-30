@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import classNames from "classnames";
 import { dmSans } from "./assets";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Pixelo agency",
@@ -19,6 +20,7 @@ export default function RootLayout({
         className={classNames(dmSans.className, "w-screen overflow-x-hidden")}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
