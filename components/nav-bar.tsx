@@ -13,7 +13,7 @@ const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 export default function NavBar() {
   const reference = useRef(null);
 
-  const [navToggled, setNavToggled] = useState(false);
+  const [navToggled, setNavToggled] = useState(true);
 
   const handleClickOutside = () => setNavToggled(false);
 
@@ -50,14 +50,18 @@ export default function NavBar() {
         <div
           ref={reference}
           className={classNames(
-            "absolute z-50 translate-x-full transition duration-500 right-0 w-4/5 bg-[#FCFBFD] text-neutral-950 inset-y-0 pt-5",
+            "absolute z-50 transition duration-500 right-0 w-4/5 bg-[#FCFBFD] text-neutral-950 inset-y-0 pt-5",
             {
+              "translate-x-full": !navToggled,
               "translate-x-0": navToggled,
             },
           )}
         >
-          <Link href="/" onClick={() => setNavToggled(!navToggled)}>
-            <Logo className="size-10 w-20" />
+          <Link href="/">
+            <Logo
+              className="size-10 w-20"
+              onClick={() => setNavToggled(!navToggled)}
+            />
           </Link>
           <nav className="grid gap-2 mt-10 *:py-2 *:px-2">
             <Link
