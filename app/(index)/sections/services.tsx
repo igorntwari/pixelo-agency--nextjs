@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import ServiceListItem from "../../components/service-list-item";
+import ServiceListItem from "../components/service-list-item";
 import { robotoSerif } from "../../assets";
 
 export interface Service {

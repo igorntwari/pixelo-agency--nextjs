@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { robotoSerif } from "../../assets";
-import ProcessListItem from "../../components/process-list-item";
+import ProcessListItem from "../components/process-list-item";
 
 export interface Process {
   id: number;

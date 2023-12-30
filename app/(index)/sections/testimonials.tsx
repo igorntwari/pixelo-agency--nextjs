@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import TestimonialListItem from "../../components/testimonial-list-item";
+import TestimonialListItem from "../components/testimonial-list-item";
 
 import "swiper/css";
 import "swiper/css/navigation";

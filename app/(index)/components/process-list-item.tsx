@@ -1,9 +1,9 @@
 import { Icon, Zap, BookOpen, Sliders, CheckCircle } from "react-feather";
 const ProcessIcons: Icon[] = [Zap, BookOpen, Sliders, CheckCircle];
 
-import { Process } from "../(index)/sections/process";
+import { Process } from "../sections/process";
 import classNames from "classnames";
-import { robotoSerif } from "../assets";
+import { robotoSerif } from "../../assets";
 
 export default function ProcessListItem({ id, title, description }: Process) {
   const ProcessIcon = ProcessIcons[id];

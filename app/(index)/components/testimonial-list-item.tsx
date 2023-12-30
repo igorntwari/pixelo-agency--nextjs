@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Testimonial } from "../(index)/sections/testimonials";
+import { Testimonial } from "../sections/testimonials";
 import classNames from "classnames";
-import { robotoSerif } from "../assets";
+import { robotoSerif } from "../../assets";
 
 export default function TestimonialListItem({
   image,

@@ -4,8 +4,8 @@ import classNames from "classnames";
 import { CSSProperties, PropsWithChildren, useRef } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import { Edit, PenTool, PieChart, Layout, Users, Award } from "react-feather";
-import { Service } from "../(index)/sections/services";
-import { robotoSerif } from "../assets";
+import { Service } from "../sections/services";
+import { robotoSerif } from "../../assets";
 
 const ServicesIcons = [Edit, PenTool, PieChart, Layout, Users, Award];
 
