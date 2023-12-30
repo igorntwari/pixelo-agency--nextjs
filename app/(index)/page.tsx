@@ -7,13 +7,13 @@ import Testimonials from "./sections/testimonials";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Services />
       <AboutUs />
       <Process />
       <ShowCase />
       <Testimonials />
-    </>
+    </main>
   );
 }
