@@ -2,15 +2,14 @@
 
 import { useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
-import { Roboto_Serif } from "next/font/google";
 import Link from "next/link";
 import classNames from "classnames";
 import { Menu } from "react-feather";
-import { Logo } from "@/app/assets";
-
-const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
+import { Logo, robotoSerif } from "@/app/assets";
+import { usePathname } from "next/navigation";
 
 export default function NavBar() {
+  const pathName = usePathname();
   const reference = useRef(null);
 
   const [navToggled, setNavToggled] = useState(true);
@@ -31,10 +30,27 @@ export default function NavBar() {
           <Logo className="size-10" />
           <span>Pixelo</span>
         </Link>
-        <div className="flex gap-10">
-          <Link href="/">Home</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Contact Us</Link>
+        <div className="flex gap-10 *:md:px-6 *:px-3 *:py-1 *:rounded-full">
+          <Link
+            href="/"
+            className={classNames({ "bg-light-green": pathName === "/" })}
+          >
+            Home
+          </Link>
+          <Link
+            href="/"
+            className={classNames({ "bg-light-green": pathName === "/about" })}
+          >
+            About
+          </Link>
+          <Link
+            href="/"
+            className={classNames({
+              "bg-light-green": pathName === "/contact",
+            })}
+          >
+            Contact Us
+          </Link>
         </div>
         <Link
           href="/"
@@ -67,21 +83,27 @@ export default function NavBar() {
             <Link
               href="/"
               onClick={() => setNavToggled(!navToggled)}
-              className="bg-[#F0EEF0]"
+              className={classNames("bg-[#F0EEF0]", {
+                "bg-light-green": pathName === "/",
+              })}
             >
               Home
             </Link>
             <Link
               href="/"
               onClick={() => setNavToggled(!navToggled)}
-              className=""
+              className={classNames("bg-[#F0EEF0]", {
+                "bg-light-green": pathName === "/about",
+              })}
             >
               About
             </Link>
             <Link
               href="/"
               onClick={() => setNavToggled(!navToggled)}
-              className=""
+              className={classNames("bg-[#F0EEF0]", {
+                "bg-light-green": pathName === "/contact",
+              })}
             >
               Contact Us
             </Link>

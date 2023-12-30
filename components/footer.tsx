@@ -3,7 +3,7 @@
 import { Logo, robotoSerif } from "@/app/assets";
 import classNames from "classnames";
 import Link from "next/link";
-import { FormEvent, FormEventHandler, useRef } from "react";
+import { FormEvent, useRef } from "react";
 import { Facebook, Instagram, Linkedin } from "react-feather";
 
 export default function Footer() {
