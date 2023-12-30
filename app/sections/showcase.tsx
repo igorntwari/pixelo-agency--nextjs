@@ -9,8 +9,6 @@ import {
   project2,
   project3,
   project4,
-  project5,
-  project6,
 } from "../assets";
 import Project from "@/components/project";
 
@@ -64,7 +62,9 @@ export default function ShowCase() {
         Recent Showcase
       </h1>
 
-      <div className="mt-5 grid gap-10 sm:grid-cols-2">{displayProjects}</div>
+      <div className="mt-5 grid gap-5 md:gap-10 sm:grid-cols-2">
+        {displayProjects}
+      </div>
     </section>
   );
 }
