@@ -14,7 +14,7 @@ export default function ImageCollage({
   images,
 }: ImageCollageProperties) {
   return (
-    <div className={classNames("relative h-52 sm:h-80 md:h-auto ", className)}>
+    <div className={classNames("relative", className)}>
       <div className="relative size-10/12">
         <Image
           src={images[0].src}
