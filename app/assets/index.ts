@@ -35,3 +35,7 @@ export { default as project3 } from "./images/project-3.png";
 export { default as project4 } from "./images/project-4.png";
 export { default as project5 } from "./images/project-5.png";
 export { default as project6 } from "./images/project-6.png";
+
+export { default as about1 } from "./images/about-1.png";
+export { default as about2 } from "./images/about-2.png";
+export { default as about3 } from "./images/about-3.png";
