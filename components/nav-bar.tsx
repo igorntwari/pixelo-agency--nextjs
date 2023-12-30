@@ -8,7 +8,7 @@ import { Menu } from "react-feather";
 import { Logo, robotoSerif } from "@/app/assets";
 import { usePathname } from "next/navigation";
 
-export default function NavBar() {
+export default function NavBar({ dark }: { dark?: boolean }) {
   const pathName = usePathname();
   const reference = useRef(null);
 
@@ -19,7 +19,12 @@ export default function NavBar() {
   useOnClickOutside(reference, handleClickOutside);
   return (
     <>
-      <nav className="hidden sm:flex justify-between items-center">
+      <nav
+        className={classNames("hidden sm:flex justify-between items-center", {
+          "text-white": dark,
+          "text-neutral-950 width-responsive mt-10": !dark,
+        })}
+      >
         <Link
           href="/"
           className={classNames(
@@ -33,19 +38,23 @@ export default function NavBar() {
         <div className="flex gap-10 *:md:px-6 *:px-3 *:py-1 *:rounded-full">
           <Link
             href="/"
-            className={classNames({ "bg-light-green": pathName === "/" })}
+            className={classNames("hover:bg-light-green", {
+              "bg-light-green": pathName === "/",
+            })}
           >
             Home
           </Link>
           <Link
             href="/about"
-            className={classNames({ "bg-light-green": pathName === "/about" })}
+            className={classNames("hover:bg-light-green", {
+              "bg-light-green": pathName === "/about",
+            })}
           >
             About
           </Link>
           <Link
             href="/"
-            className={classNames({
+            className={classNames("hover:bg-light-green", {
               "bg-light-green": pathName === "/contact",
             })}
           >
@@ -54,7 +63,10 @@ export default function NavBar() {
         </div>
         <Link
           href="/"
-          className="bg-white text-neutral-950 px-4 rounded-full py-1"
+          className={classNames("px-4 rounded-full py-1", {
+            "bg-white text-neutral-950": dark,
+            "bg-custom-black text-white": !dark,
+          })}
         >
           Get in touch
         </Link>
