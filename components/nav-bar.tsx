@@ -22,7 +22,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
       <nav
         className={classNames("hidden sm:flex justify-between items-center", {
           "text-white": dark,
-          "text-neutral-950 width-responsive mt-10": !dark,
+          "text-neutral-950 width-responsive mt-5": !dark,
         })}
       >
         <Link

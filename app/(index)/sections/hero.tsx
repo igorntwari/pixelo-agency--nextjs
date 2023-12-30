@@ -15,7 +15,7 @@ import { robotoSerif } from "../../assets";
 export default function Hero() {
   return (
     <section className="bg-hero-pattern bg-blend-overlay relative w-screen overflow-x-hidden bg-bottom bg-no-repeat bg-cover text-white">
-      <div className="width-responsive py-5 sm:py-10 min-h-dvh flex flex-col">
+      <div className="width-responsive py-5 sm:pt-5 sm:pb-10 min-h-dvh flex flex-col">
         <Stars className="absolute size-32 top-1/4 left-0 hidden sm:block" />
         <NavBar dark />
         <div className="grid md:grid-cols-2 gap-5 h-hero-content-sm sm:h-hero-content sm:mt-14 grid-rows-3 md:grid-rows-1 box-border">
