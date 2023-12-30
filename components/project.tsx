@@ -24,7 +24,7 @@ export default function Project({
   return (
     <div
       className={classNames("space-y-2", {
-        "sm:mt-20": isRight && arrange,
+        "sm:mt-12 md:mt-20": isRight && arrange,
       })}
     >
       <Link
