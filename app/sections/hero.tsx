@@ -17,7 +17,7 @@ export default function Hero() {
     <section className="bg-hero-pattern bg-blend-overlay relative w-screen overflow-x-hidden bg-bottom bg-no-repeat bg-cover text-white">
       <div className="width-responsive py-5 sm:py-10 min-h-dvh flex flex-col">
         <Stars className="absolute size-32 top-1/4 left-0 hidden sm:block" />
-        <NavBar />
+        <NavBar dark />
         <div className="grid md:grid-cols-2 gap-5 h-hero-content-sm sm:h-hero-content sm:mt-14 grid-rows-3 md:grid-rows-1 box-border">
           <div className="flex flex-col relative row-span-2 md:row-span-1 justify-around py-10 md:py-0 md:justify-center gap-5">
             <p
