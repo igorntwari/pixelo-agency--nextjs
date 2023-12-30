@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import classNames from "classnames";
 import { dmSans } from "./assets";
 import Footer from "@/components/footer";
 
