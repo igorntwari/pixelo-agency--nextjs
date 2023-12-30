@@ -12,7 +12,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
   const pathName = usePathname();
   const reference = useRef(null);
 
-  const [navToggled, setNavToggled] = useState(true);
+  const [navToggled, setNavToggled] = useState(false);
 
   const handleClickOutside = () => setNavToggled(false);
 
