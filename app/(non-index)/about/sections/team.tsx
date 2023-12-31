@@ -1,8 +1,6 @@
 import { robotoSerif, team4, team5, team6 } from "@/app/assets";
 import classNames from "classnames";
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
-import { Facebook, Instagram, Linkedin } from "react-feather";
+import { StaticImageData } from "next/image";
 import TeamMember from "../components/team-member";
 
 export interface TeamMember {
