@@ -20,10 +20,13 @@ export default function NavBar({ dark }: { dark?: boolean }) {
   return (
     <>
       <nav
-        className={classNames("hidden sm:flex justify-between items-center", {
-          "text-white": dark,
-          "text-neutral-950 width-responsive mt-5": !dark,
-        })}
+        className={classNames(
+          "hidden semi-md:flex justify-between items-center",
+          {
+            "text-white": dark,
+            "text-neutral-950 width-responsive mt-5": !dark,
+          },
+        )}
       >
         <Link
           href="/"
@@ -79,8 +82,9 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           Get in touch
         </Link>
       </nav>
+
       <div
-        className={classNames("flex justify-end sm:hidden", {
+        className={classNames("flex justify-end semi-md:hidden", {
           "pr-5": dark,
           "pr-8 mt-5": !dark,
         })}

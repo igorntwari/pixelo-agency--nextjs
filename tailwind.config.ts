@@ -44,6 +44,7 @@ const config: Config = {
       },
       screens: {
         "3xl": "1600px",
+        "semi-md": "870px",
       },
     },
   },
