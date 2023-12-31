@@ -53,6 +53,14 @@ export default function NavBar({ dark }: { dark?: boolean }) {
             About
           </Link>
           <Link
+            href="/projects"
+            className={classNames("hover:bg-light-green", {
+              "bg-light-green": pathName === "/projects",
+            })}
+          >
+            Projects
+          </Link>
+          <Link
             href="/"
             className={classNames("hover:bg-light-green", {
               "bg-light-green": pathName === "/contact",
@@ -114,6 +122,15 @@ export default function NavBar({ dark }: { dark?: boolean }) {
               })}
             >
               About
+            </Link>
+            <Link
+              href="/projects"
+              onClick={() => setNavToggled(!navToggled)}
+              className={classNames("bg-[#F0EEF0]", {
+                "bg-light-green": pathName === "/projects",
+              })}
+            >
+              Projects
             </Link>
             <Link
               href="/"
