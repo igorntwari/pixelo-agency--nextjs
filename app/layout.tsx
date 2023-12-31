@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import { dmSans } from "./assets";
 import Footer from "@/components/footer";
