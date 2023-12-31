@@ -11,7 +11,7 @@ export default function Contact() {
         </h1>
         <Link
           href="/contact"
-          className="bg-white text-black rounded-full px-4 py-1 sm:py-2"
+          className="rounded-full px-4 py-1 sm:py-2 border transition hover:bg-white hover:text-neutral-950 border-white"
         >
           Get in touch
         </Link>

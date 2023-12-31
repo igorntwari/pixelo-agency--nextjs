@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Contact from "./sections/contact";
+import Contact from "@/components/sections/contact";
 import Counter from "./sections/counter";
 import HeroAbout from "./sections/hero-about";
 import Mission from "./sections/mission";
