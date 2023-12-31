@@ -1,3 +1,4 @@
+import Contact from "./sections/contact";
 import Counter from "./sections/counter";
 import HeroAbout from "./sections/hero-about";
 import Mission from "./sections/mission";
@@ -10,6 +11,7 @@ export default function About() {
       <Counter />
       <Mission />
       <Team />
+      <Contact />
     </main>
   );
 }
