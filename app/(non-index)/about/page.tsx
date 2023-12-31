@@ -1,6 +1,7 @@
 import Counter from "./sections/counter";
 import HeroAbout from "./sections/hero-about";
 import Mission from "./sections/mission";
+import Team from "./sections/team";
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <HeroAbout />
       <Counter />
       <Mission />
+      <Team />
     </main>
   );
 }
