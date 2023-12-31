@@ -4,6 +4,12 @@ import Services from "./sections/services";
 import Process from "./sections/process";
 import ShowCase from "./sections/showcase";
 import Testimonials from "./sections/testimonials";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Pixelo agency",
+  description: "Graphic design company",
+};
 
 export default function Home() {
   return (
