@@ -24,6 +24,9 @@ export { default as heroImage } from "./images/hero.png";
 export { default as team1 } from "./images/team-1.jpg";
 export { default as team2 } from "./images/team-2.jpg";
 export { default as team3 } from "./images/team-3.jpg";
+export { default as team4 } from "./images/team-4.png";
+export { default as team5 } from "./images/team-5.png";
+export { default as team6 } from "./images/team-6.png";
 
 export { default as project1 } from "./images/project-1.png";
 export { default as project1_1 } from "./images/project-1-1.png";
