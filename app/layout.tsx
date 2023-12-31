@@ -4,11 +4,6 @@ import { dmSans } from "./assets";
 import Footer from "@/components/footer";
 import classNames from "classnames";
 
-export const metadata: Metadata = {
-  title: "Pixelo agency",
-  description: "Graphic design company",
-};
-
 export default function RootLayout({
   children,
 }: {
