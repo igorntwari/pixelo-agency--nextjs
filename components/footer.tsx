@@ -40,8 +40,8 @@ export default function Footer() {
               Pages
             </h3>
             <Link href="/">Home</Link>
-            <Link href="/">About</Link>
-            <Link href="/">Contac Us</Link>
+            <Link href="/about">About</Link>
+            <Link href="/contact">Contac Us</Link>
           </div>
           <form onSubmit={handleSubmit} className="space-y-3 flex-1">
             <h3 className={classNames(robotoSerif.className, "text-xl")}>
