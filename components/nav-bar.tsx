@@ -95,7 +95,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
         <div
           ref={reference}
           className={classNames(
-            "absolute z-50 transition duration-500 right-0 w-4/5 bg-[#FCFBFD] text-neutral-950 inset-y-0 pt-5",
+            "fixed top-0 h-screen z-50 transition duration-500 right-0 w-4/5 bg-[#FCFBFD] text-neutral-950 pt-5",
             {
               "translate-x-full": !navToggled,
               "translate-x-0": navToggled,
