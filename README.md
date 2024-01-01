@@ -10,6 +10,7 @@ Pixelo Agency is a creative hub specializing in graphic design. Our talented tea
 
 ### Core Tools Used
 
+- Typescript
 - Next.js 14
 - Tailwindcss 3.4
 - Feather Icons 2.0
