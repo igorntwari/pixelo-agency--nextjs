@@ -1,16 +1,9 @@
 import { robotoSerif } from "@/app/assets";
 import classNames from "classnames";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "react-feather";
-
-interface ProjectProperties {
-  id: number;
-  images: StaticImageData[];
-  title: string;
-  description: string;
-  arrange?: boolean;
-}
+import { Project as ProjectProperties } from "@/app/layout";
 
 export default function Project({
   id,
