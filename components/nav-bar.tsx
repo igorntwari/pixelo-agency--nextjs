@@ -64,7 +64,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
             Projects
           </Link>
           <Link
-            href="/"
+            href="/contact"
             className={classNames("hover:bg-light-green", {
               "bg-light-green": pathName === "/contact",
             })}
@@ -73,7 +73,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           </Link>
         </div>
         <Link
-          href="/"
+          href="/contact"
           className={classNames("px-4 rounded-full py-1", {
             "bg-white text-neutral-950": dark,
             "bg-custom-black text-white": !dark,
@@ -137,7 +137,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
               Projects
             </Link>
             <Link
-              href="/"
+              href="/contact"
               onClick={() => setNavToggled(!navToggled)}
               className={classNames("bg-[#F0EEF0]", {
                 "bg-light-green": pathName === "/contact",
