@@ -1,11 +1,11 @@
 import Portfolio from "./sections/portfolio";
-import ProjectsShowcase from "./sections/projects";
+import ShowCase from "./sections/showcase";
 
 export default function Projects() {
   return (
     <main className="*:my-10 width-responsive">
       <Portfolio />
-      <ProjectsShowcase />
+      <ShowCase />
     </main>
   );
 }
