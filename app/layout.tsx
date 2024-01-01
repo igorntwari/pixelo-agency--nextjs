@@ -70,7 +70,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={classNames(dmSans.className, "w-screen overflow-x-hidden")}
+        className={classNames(
+          dmSans.className,
+          "w-screen overflow-x-hidden scrollbar-thin scrollbar-thumb-light-green scrollbar-track-neutral-950",
+        )}
       >
         {children}
         <Footer />
