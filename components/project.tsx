@@ -21,7 +21,7 @@ export default function Project({
       })}
     >
       <Link
-        href={`project?p=${id}`}
+        href={`/projects/${id}`}
         className="relative group rounded-xl overflow-hidden"
       >
         <div className="bg-black/60 absolute inset-0 text-white hidden group-hover:grid z-10 rounded-xl place-content-center">
