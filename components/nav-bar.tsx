@@ -41,7 +41,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
         <div className="flex gap-10 *:md:px-6 *:px-3 *:py-1 *:rounded-full">
           <Link
             href="/"
-            className={classNames("hover:bg-light-green", {
+            className={classNames("hover:bg-light-green transition", {
               "bg-light-green": pathName === "/",
             })}
           >
@@ -49,7 +49,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           </Link>
           <Link
             href="/about"
-            className={classNames("hover:bg-light-green", {
+            className={classNames("hover:bg-light-green transition", {
               "bg-light-green": pathName === "/about",
             })}
           >
@@ -57,7 +57,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           </Link>
           <Link
             href="/projects"
-            className={classNames("hover:bg-light-green", {
+            className={classNames("hover:bg-light-green transition", {
               "bg-light-green": pathName === "/projects",
             })}
           >
@@ -65,7 +65,7 @@ export default function NavBar({ dark }: { dark?: boolean }) {
           </Link>
           <Link
             href="/contact"
-            className={classNames("hover:bg-light-green", {
+            className={classNames("hover:bg-light-green transition", {
               "bg-light-green": pathName === "/contact",
             })}
           >
@@ -112,36 +112,48 @@ export default function NavBar({ dark }: { dark?: boolean }) {
             <Link
               href="/"
               onClick={() => setNavToggled(!navToggled)}
-              className={classNames("bg-[#F0EEF0]", {
-                "bg-light-green": pathName === "/",
-              })}
+              className={classNames(
+                "bg-[#F0EEF0] hover:bg-light-green transition",
+                {
+                  "bg-light-green": pathName === "/",
+                },
+              )}
             >
               Home
             </Link>
             <Link
               href="/about"
               onClick={() => setNavToggled(!navToggled)}
-              className={classNames("bg-[#F0EEF0]", {
-                "bg-light-green": pathName === "/about",
-              })}
+              className={classNames(
+                "bg-[#F0EEF0] hover:bg-light-green transition",
+                {
+                  "bg-light-green": pathName === "/about",
+                },
+              )}
             >
               About
             </Link>
             <Link
               href="/projects"
               onClick={() => setNavToggled(!navToggled)}
-              className={classNames("bg-[#F0EEF0]", {
-                "bg-light-green": pathName === "/projects",
-              })}
+              className={classNames(
+                "bg-[#F0EEF0] hover:bg-light-green transition",
+                {
+                  "bg-light-green": pathName === "/projects",
+                },
+              )}
             >
               Projects
             </Link>
             <Link
               href="/contact"
               onClick={() => setNavToggled(!navToggled)}
-              className={classNames("bg-[#F0EEF0]", {
-                "bg-light-green": pathName === "/contact",
-              })}
+              className={classNames(
+                "bg-[#F0EEF0] hover:bg-light-green transition",
+                {
+                  "bg-light-green": pathName === "/contact",
+                },
+              )}
             >
               Contact Us
             </Link>
