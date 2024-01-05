@@ -44,7 +44,7 @@ const config: Config = {
         focus: "focus 1s ease-in-out calc(var(--order) * 1000ms) forwards",
       },
       screens: {
-        "3xl": "1600px",
+        "3xl": "1700px",
         "semi-md": "870px",
       },
     },
