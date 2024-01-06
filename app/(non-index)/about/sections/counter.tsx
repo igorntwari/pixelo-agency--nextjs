@@ -10,10 +10,10 @@ export default function Counter() {
         >
           200+
         </h3>
-        <p className={robotoSerif.className}>We&apos;re family</p>
+        <p className={robotoSerif.className}>Web Development</p>
         <p className="text-center sm:text-start">
-          Speedily say has suitable disposal add boy. On fourth doubt miles of
-          child. Exercise joy man children rejoiced
+          Pixelo Agency has transformed the digital presence of numerous
+          companies with our web development expertise
         </p>
       </div>
       <div className="flex flex-col items-center sm:items-start gap-2 sm:gap-5">
@@ -24,8 +24,8 @@ export default function Counter() {
         </h3>
         <p className={robotoSerif.className}>Graphic Design</p>
         <p className="text-center sm:text-start">
-          Perceived end knowledge certainly day sweetness why cordially. Ask a
-          quick six seven offer see among.
+          Pixelo Agency has brought numerous brands to life with our innovative
+          graphic design solutions
         </p>
       </div>
       <div className="flex flex-col items-center sm:items-start gap-2 sm:gap-5">
@@ -36,8 +36,8 @@ export default function Counter() {
         </h3>
         <p className={robotoSerif.className}>Digital Marketing</p>
         <p className="text-center sm:text-start">
-          Rooms oh fully taken by worse do. Points afraid but may end law
-          lasted. Was out laughter raptures returned outweigh.
+          Pixelo Agency has successfully amplified the online presence of
+          numerous businesses with our digital marketing strategies.
         </p>
       </div>
     </section>
