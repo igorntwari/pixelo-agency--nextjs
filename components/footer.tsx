@@ -35,7 +35,7 @@ export default function Footer() {
               focus in our pursuit of mastery and joyful.
             </p>
           </div>
-          <div className="flex flex-col gap-4 flex-1">
+          <div className="flex flex-col items-start gap-4 flex-1">
             <h3 className={classNames(robotoSerif.className, "text-xl")}>
               Pages
             </h3>
