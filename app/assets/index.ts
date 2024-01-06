@@ -28,17 +28,6 @@ export { default as team4 } from "./images/team-4.png";
 export { default as team5 } from "./images/team-5.png";
 export { default as team6 } from "./images/team-6.png";
 
-export { default as project1 } from "./images/project-1.png";
-export { default as project1_1 } from "./images/project-1-1.png";
-export { default as project1_2 } from "./images/project-1-2.png";
-export { default as project1_3 } from "./images/project-1-3.png";
-
-export { default as project2 } from "./images/project-2.png";
-export { default as project3 } from "./images/project-3.png";
-export { default as project4 } from "./images/project-4.png";
-export { default as project5 } from "./images/project-5.png";
-export { default as project6 } from "./images/project-6.png";
-
 export { default as about1 } from "./images/about-1.png";
 export { default as about2 } from "./images/about-2.png";
 export { default as about3 } from "./images/about-3.png";
