@@ -33,10 +33,9 @@ export default function AboutUs() {
             The core mission behind our work
           </h1>
           <p className="text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde non
-            iste provident iusto perspiciatis aut optio deleniti, nostrum
-            repellat voluptatibus laborum aspernatur sapiente, dolor culpa
-            officiis voluptatem doloremque nihil natus.
+            Meet our team at Pixelo Agency - a blend of strategists, designers,
+            developers, and consultants. Together, we&apos;re committed to
+            shaping your digital journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-10">
             <div className="grid">
