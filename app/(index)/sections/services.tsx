@@ -23,27 +23,27 @@ const SERVICES: Service[] = [
   },
   {
     id: 2,
-    title: "Graphic Design",
+    title: "Digital Marketing",
     description:
-      "Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate.",
+      "Elevate your brand's online presence with our data-driven digital marketing strategies. From SEO and content marketing",
   },
   {
     id: 3,
-    title: "Graphic Design",
+    title: "Web Design",
     description:
-      "Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate.",
+      "We specialize in creating visually stunning, user-friendly websites that align with your brand identity and deliver an exceptional.",
   },
   {
     id: 4,
-    title: "Graphic Design",
+    title: "IT Consulting",
     description:
-      "Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate.",
+      "IT consulting, or information technology consulting, refers to the practice of providing advisory and implementation services",
   },
   {
     id: 5,
-    title: "Graphic Design",
+    title: "Brand Identity ",
     description:
-      "Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate.",
+      "It involves creating a unique and recognizable identity that sets the brand apart from competitors and resonates with the target audience.",
   },
 ];
 
