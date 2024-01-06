@@ -16,10 +16,10 @@ export const PROJECTS: Project[] = [
   {
     id: 0,
     images: [
-      "https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1590102425712-1c28a0d6b85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1590102425712-1c28a0d6b85b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
     ],
     title: "Revamping Brand Identity",
     intro: "ProTech Innovations, a leading player in the tech industry",
@@ -29,10 +29,10 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     images: [
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29udGVudHklMjBzdHJhdGVneXxlbnwwfHwwfHx8MA%3D%3D",
     ],
     title: "Content Strategy for Green Energy Solutions",
     intro: "Green Energy Solutions, a company dedicated to sustainable energy",
@@ -42,10 +42,10 @@ export const PROJECTS: Project[] = [
   {
     id: 2,
     images: [
-      "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww",
     ],
     title: "Website Design for Bookworm Online Library",
     intro:
@@ -56,10 +56,10 @@ export const PROJECTS: Project[] = [
   {
     id: 3,
     images: [
-      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1613479205646-c0dc1ee8511f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1613479205646-c0dc1ee8511f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
     ],
     title: "Graphic Design Campaign for Fashion Forward Apparel",
     intro: "Fashion Forward Apparel, a trendy clothing brand",
@@ -70,10 +70,10 @@ export const PROJECTS: Project[] = [
     id: 4,
     title: "IT Consulting for Quantum Computing Corp",
     images: [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1573164574511-73c773193279?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1573164574511-73c773193279?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
     ],
     intro: "Quantum Computing Corp, a pioneer in quantum computing",
     description:
@@ -82,10 +82,10 @@ export const PROJECTS: Project[] = [
   {
     id: 5,
     images: [
-      "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1557838923-2985c318be48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1571677246347-5040036b95cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1557838923-2985c318be48?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1571677246347-5040036b95cc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     intro: "Fresh Farm Organics, a provider of organic produce",
     title: "Digital Marketing Plan for Fresh Farm Organics",
@@ -95,10 +95,10 @@ export const PROJECTS: Project[] = [
   {
     id: 6,
     images: [
-      "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
     ],
     title: "Web Development for Virtual Realty Estate",
     intro:
