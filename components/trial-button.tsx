@@ -15,7 +15,7 @@ export default function TrialButton({
 }: TrialButtonProperties) {
   return (
     <Link
-      href={link ?? "/"}
+      href={link ?? "/contact"}
       className={classNames(
         "flex text-sm sm:text-base items-center rounded-full p-1 sm:p-2 pr-4 gap-3",
         className,
