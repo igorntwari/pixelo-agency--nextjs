@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
       "https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1590102425712-1c28a0d6b85b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnJhbmQlMjBpZGVudGl0eXxlbnwwfHwwfHx8MA%3D%3D",
       "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1613759612065-d5971d32ca49?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1590102426275-8d1c367070d3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJyYW5kJTIwaWRlbnRpdHl8ZW58MHx8MHx8fDA%3D",
     ],
     title: "Revamping Brand Identity",
     intro: "ProTech Innovations, a leading player in the tech industry",
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1573164574511-73c773193279?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
       "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SVQlMjBjb25zdWx0aW5nfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fElUJTIwY29uc3VsdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     intro: "Quantum Computing Corp, a pioneer in quantum computing",
     description:
