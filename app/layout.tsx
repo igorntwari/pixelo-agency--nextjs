@@ -119,7 +119,6 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#0c0c0c",
-    "twitter:card": "summary_large_image",
   },
 };
 
