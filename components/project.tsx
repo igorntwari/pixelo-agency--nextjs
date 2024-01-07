@@ -33,6 +33,7 @@ export default function Project({
           className="object-cover w-full h-64 sm:h-80 scale-95"
           height={500}
           width={700}
+          priority
         />
       </Link>
       <p className={classNames(robotoSerif.className, "font-medium")}>
