@@ -26,9 +26,9 @@ export default function HeroAbout() {
             to the next level?
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut massa
-            libero egestas malesuada viverra gravida libero cursus nulla leo
-            pulvinar.
+            We believe in collaboration, open communication, and delivering the
+            best solutions to our customers. Excited for the future, we look
+            forward to working with you.
           </p>
         </div>
         <div>
