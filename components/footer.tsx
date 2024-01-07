@@ -39,9 +39,15 @@ export default function Footer() {
             <h3 className={classNames(robotoSerif.className, "text-xl")}>
               Pages
             </h3>
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contac Us</Link>
+            <Link className="hover:text-light-green transition" href="/">
+              Home
+            </Link>
+            <Link className="hover:text-light-green transition" href="/about">
+              About
+            </Link>
+            <Link className="hover:text-light-green transition" href="/contact">
+              Contac Us
+            </Link>
           </div>
           <form onSubmit={handleSubmit} className="space-y-3 flex-1">
             <h3 className={classNames(robotoSerif.className, "text-xl")}>
