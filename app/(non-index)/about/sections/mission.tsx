@@ -24,8 +24,9 @@ export default function Mission() {
             Boost your business.
           </h1>
           <p>
-            He moonlights difficult engrossed it, sportsmen. Interested has all
-            Devonshire difficulty gay assistance joy.
+            Our mission at Pixelo Agency is to empower businesses with
+            innovative digital solutions, shaping the future of digital
+            experiences
           </p>
         </div>
         <div className="space-y-5">
@@ -33,31 +34,31 @@ export default function Mission() {
             <span className="text-white rounded-full p-1 bg-light-green ">
               <Check className="size-5" />
             </span>
-            <p>Moonlight newspaper up its enjoyment</p>
+            <p>Empower businesses with innovative digital solutions</p>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-white rounded-full p-1 bg-light-green ">
               <Check className="size-5" />
             </span>
-            <p>She new course gets living.</p>
+            <p>Create compelling content</p>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-white rounded-full p-1 bg-light-green ">
               <Check className="size-5" />
             </span>
-            <p>Rooms oh fully taken by worse.</p>
+            <p>Design captivating graphics</p>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-white rounded-full p-1 bg-light-green ">
               <Check className="size-5" />
             </span>
-            <p>Perceived end certainly day.</p>
+            <p>Develop engaging websites</p>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-white rounded-full p-1 bg-light-green ">
               <Check className="size-5" />
             </span>
-            <p>Preference any astonished unreserved Mrs.</p>
+            <p>Offer insightful IT consulting</p>
           </div>
         </div>
       </div>
