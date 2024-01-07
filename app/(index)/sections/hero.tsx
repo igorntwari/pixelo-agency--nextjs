@@ -31,11 +31,15 @@ export default function Hero() {
               next level?
             </p>
             <p className="text-sm sm:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut
-              massa libero egestas malesuada viverra gravida libero cursus nulla
-              leo pulvinar.
+              Welcome to Pixelo Agency, your digital partner. We offer content
+              marketing, graphic design, web design, IT consulting, and brand
+              identity services. Let&apos;s shape your online presence together!
             </p>
-            <TrialButton className="sm:w-auto self-start" dark={false} />
+            <TrialButton
+              link="/contact"
+              className="sm:w-auto self-start"
+              dark={false}
+            />
             <div className="md:absolute md:bottom-0 md:inset-x-0 flex sm:flex-row flex-col items-start justify-center *:w-full *:h-10 md:*:h-auto md:items-stretch md:h-16">
               <Greenish />
               <Automation />
