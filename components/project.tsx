@@ -9,8 +9,8 @@ export default function Project({
   id,
   images,
   title,
-  description,
   arrange,
+  intro,
 }: ProjectProperties) {
   const isRight = id % 2 !== 0;
 
@@ -30,13 +30,15 @@ export default function Project({
         <Image
           src={images[0]}
           alt={`${title} image-${id}`}
-          className="object-cover w-full scale-95"
+          className="object-cover w-full h-64 sm:h-80 scale-95"
+          height={500}
+          width={700}
         />
       </Link>
       <p className={classNames(robotoSerif.className, "font-medium")}>
         {title}
       </p>
-      <p className="text-sm">{description}</p>
+      <p className="text-sm">{intro}</p>
     </div>
   );
 }
