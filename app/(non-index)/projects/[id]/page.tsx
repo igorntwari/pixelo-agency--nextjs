@@ -24,7 +24,7 @@ export function generateMetadata({
   };
 }
 
-export function getProject(id: number): Project {
+function getProject(id: number): Project {
   return PROJECTS.find((project) => project.id === id) || notFound();
 }
 
