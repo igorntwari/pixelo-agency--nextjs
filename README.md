@@ -12,7 +12,7 @@ Pixelo agency is agency that specialize in content marketing, graphic design, we
 
 ### Core Tools Used
 
-- Typescript
+- Typescript 5
 - Next.js 14
 - Tailwindcss 3.4
 - Feather Icons 2.0
