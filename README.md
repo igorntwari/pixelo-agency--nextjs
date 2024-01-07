@@ -1,12 +1,14 @@
 # Pixelo Agency
 
-Pixelo Agency is a creative hub specializing in graphic design. Our talented team transforms ideas into compelling visual content. We offer a range of services to help your brand stand out. Visit our website to explore our work and meet our team.
+Pixelo agency is agency that specialize in content marketing, graphic design, web design, IT consulting, and brand identity. The mission is to empower businesses with innovative digital solutions, shaping the future of digital experiences
 
 ### Website Features
 
-- **Team Showcase**: Meet the creative minds behind Pixelo Agency.
-- **Product Portfolio**: Explore our diverse range of graphic design content.
-- **Contact Information**: Reach out to us for any inquiries or further information.
+- **Content Marketing**: We create compelling content that resonates with your audience and drives engagement.
+- **Graphic Design**: Our team of designers create visually stunning graphics that bring your brand to life.
+- **Web Design**: We develop user-friendly websites that enhance your online presence and provide a seamless user experience.
+- **IT Consulting**: Our IT experts provide insightful consulting services that help you leverage technology to your advantage.
+- **Brand Identity**: We craft unique brand identities that set your business apart and resonate with your target audience.
 
 ### Core Tools Used
 
