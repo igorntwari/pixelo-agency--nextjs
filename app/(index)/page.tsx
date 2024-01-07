@@ -8,7 +8,6 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pixelo agency",
-  description: "Graphic design company",
 };
 
 export default function Home() {

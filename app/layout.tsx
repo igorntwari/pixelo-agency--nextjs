@@ -2,6 +2,7 @@ import "./globals.css";
 import { dmSans } from "./assets";
 import Footer from "@/components/footer";
 import classNames from "classnames";
+import { Metadata } from "next";
 
 export interface Project {
   id: number;
@@ -107,6 +108,19 @@ export const PROJECTS: Project[] = [
       "Virtual Realty Estate, a real estate company specializing in virtual tours, needed a website that could showcase their unique selling proposition. We developed a website with integrated virtual tour functionality, providing a seamless user experience. The website has helped Virtual Realty Estate stand out in the competitive real estate market. It has also made it easier for potential buyers to explore properties virtually, enhancing their property buying experience.",
   },
 ];
+
+export const metadata: Metadata = {
+  openGraph: {
+    title: "Pixelo agency",
+    description:
+      "Welcome to Pixelo Agency, your digital partner. We offer content marketing, graphic design, web design, IT consulting, and brand identity services",
+    url: "https://pixelo-agency.vercel.app/",
+    images: ["https://pixelo-agency.vercel.app/favicon.ico"],
+  },
+  other: {
+    "theme-color": "#0c0c0c",
+  },
+};
 
 export default function RootLayout({
   children,
