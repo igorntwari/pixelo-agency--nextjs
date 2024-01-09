@@ -3,6 +3,7 @@ import { dmSans } from "./assets";
 import Footer from "@/components/footer";
 import classNames from "classnames";
 import { Metadata } from "next";
+const currentUrl = process.env.NEXT_CURRENT_URL;
 
 export interface Project {
   id: number;
@@ -143,8 +144,8 @@ export const metadata: Metadata = {
     title: "Pixelo agency",
     description:
       "Welcome to Pixelo Agency, your digital partner. We offer content marketing, graphic design, web design, IT consulting, and brand identity services",
-    url: "https://pixelo-agency.vercel.app/",
-    images: ["https://pixelo-agency.vercel.app/favicon.ico"],
+    url: `${currentUrl}`,
+    images: [`${currentUrl}favicon-32x32.png`],
   },
   other: {
     "theme-color": "#0c0c0c",
