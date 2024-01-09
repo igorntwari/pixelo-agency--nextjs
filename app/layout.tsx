@@ -110,6 +110,35 @@ export const PROJECTS: Project[] = [
 ];
 
 export const metadata: Metadata = {
+  icons: {
+    apple: {
+      sizes: "180x180",
+      url: "/apple-touch-icon.png",
+    },
+    icon: {
+      url: "/favicon-32x32.png",
+      type: "image/png",
+      rel: "icon",
+      sizes: "32x32",
+    },
+    other: [
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        url: "/favicon-16x16.png",
+      },
+      {
+        rel: "manifest",
+        url: "/site.webmanifest",
+      },
+      {
+        rel: "mask-icon",
+        url: "/safari-pinned-tab.svg",
+        color: "#0c0c0c",
+      },
+    ],
+  },
   openGraph: {
     title: "Pixelo agency",
     description:
@@ -119,6 +148,7 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#0c0c0c",
+    "msapplication-TileColor": "#0c0c0c",
   },
 };
 
